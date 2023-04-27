@@ -1,0 +1,102 @@
+{% extends 'share_layout/base.html' %}
+{% load blog_tags %}
+
+{% block header %}
+
+    <title>{{ article.title }} | {{ SITE_DESCRIPTION }}</title>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{ article.title }}"/>
+
+
+    <meta property="og:description" content="{{ article.body|custom_markdown|striptags|truncatewords:1 }}"/>
+    <meta property="og:url"
+          content="{{ article.get_full_url }}"/>
+    <meta property="article:published_time" content="{% datetimeformat article.pub_time %}"/>
+    <meta property="article:modified_time" content="{% datetimeformat article.pub_time %}"/>
+    <meta property="article:author" content="{{ article.author.get_full_url }}"/>
+    <meta property="article:section" content="{{ article.category.name }}"/>
+    {% for t in article.tags.all %}
+        <meta property="article:tag" content="{{ t.name }}"/>
+    {% endfor %}
+    <meta property="og:site_name" content="{{ SITE_NAME }}"/>
+
+    <meta name="description" content="{{ article.body|custom_markdown|striptags|truncatewords:1 }}"/>
+    {% if article.tags %}
+        <meta name="keywords" content="{{ article.tags.all|join:", "}}"/>
+    {% else %}
+        <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
+    {% endif %}
+
+{% endblock %}
+{% block content %}
+<main>
+    <section id="content" role="main" class="blog_area section-padding" style="padding-left: 10px; padding-right: 10px;">
+        <div class="row">
+        {% load_article_detail article False user %}
+
+        {% if article.type == 'a' %}
+            <nav class="nav-single">
+                <h3 class="assistive-text">article navigation</h3>
+                {% if next_article %}
+
+                    <span class="nav-previous"><a href="{{ next_article.get_absolute_url }}" rel="prev"><span
+                            class="meta-nav">&larr;</span> {{ next_article.title }}</a></span>
+                {% endif %}
+                {% if prev_article %}
+                    <span class="nav-next"><a href="{{ prev_article.get_absolute_url }}"
+                                              rel="next">{{ prev_article.title }} <span
+                            class="meta-nav">&rarr;</span></a></span>
+                {% endif %}
+            </nav><!-- .nav-single -->
+        {% endif %}
+    </div>
+    
+    
+    </section><!-- #content -->
+    <!--================Blog Area =================-->
+    
+    <!--================ Blog Area end =================-->
+ </main>
+    <div class="container">
+        <div class="row">
+            <div id="primary" class="comments-area">
+                <div class="comment-list">
+                    <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                            <!-- #content -->
+                            {% if article.comment_status == "o" and OPEN_SITE_COMMENT %}
+        
+        
+                {% include 'comments/tags/comment_list.html' %}
+                {% if user.is_authenticated %}
+                    {% include 'comments/tags/post_comment.html' %}
+                    
+                {% else %}
+                    <div class="comments-area">
+                        <h3 class="comment-meta">You are not logged in yet, please<a
+                                href="{% url 'account:login' %}?next={{ request.get_full_path }}" rel="nofollow"> <button> LOGIN</button></a> To Publish Comment。
+                        </h3>
+    
+                        {% load oauth_tags %}
+                        {% load_oauth_applications request %}
+    
+                    </div>
+                {% endif %}
+            {% endif %}
+                        </div>
+                            
+                
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+
+    </div><!-- #primary -->
+
+{% endblock %}
+
+{% block sidebar %}
+    {% load_sidebar user "p" %}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% if user.is_authenticated %}
+  <form method="post" action="{% url 'post-like' pk=post.id %}">
+    {% csrf_token %}
+    {% if user in post.likes.all %}
+      <button type="submit" class="btn btn-secondary">Unlike</button>
+    {% else %}
+      <button type="submit" class="btn btn-primary">Like</button>
+    {% endif %}
+  </form>
+{% else %}
+  <a href="{% url 'login' %}" class="btn btn-primary">Log in to Like</a>
+{% endif %}

@@ -1,0 +1,59 @@
+{% extends 'share_layout/base.html' %}
+{% load blog_tags %}
+{% load cache %}
+{% block header %}
+    {% if tag_name %}
+        {% if statuscode == '404' %}
+            <title>404 NotFound</title>
+        {% elif statuscode == '403' %}
+            <title>Permission Denied</title>
+        {% elif statuscode == '500' %}
+            <title>500 Error</title>
+        {% else %}
+            <title></title>
+        {% endif %}
+        {% comment %}<meta name="description" content="{{ page_type }}:{{ tag_name }}"/>{% endcomment %}
+    {% else %}
+        <title>{{ SITE_NAME }} | {{ SITE_DESCRIPTION }}</title>
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ SITE_SEO_DESCRIPTION }}"/>
+    <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:title" content="{{ SITE_NAME }}"/>
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}"/>
+    <meta property="og:url" content="{{ SITE_BASE_URL }}"/>
+    <meta property="og:site_name" content="{{ SITE_NAME }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div id="primary" class="blog_area  section-padding">
+        <div id="content" role="main">
+            <div class="container">
+                <div class="row">
+                    <header class="archive-header">
+                        <div class="container">
+                            <div class="row">
+                                <h1 class="archive-title">{{ message }}</h1>
+
+                            </div>
+
+                        </div>
+                    </header><!-- .archive-header -->
+                </div>
+            </div>
+            
+
+        </div><!-- #content -->
+    </div><!-- #primary -->
+
+</div>
+    
+{% endblock %}
+
+
+{% block sidebar %}
+    {% load_sidebar user 'i' %}
+{% endblock %}
+
+

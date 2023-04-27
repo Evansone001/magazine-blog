@@ -1,0 +1,85 @@
+{% extends 'share_layout/base.html' %}
+{% load blog_tags %}
+{% block header %}
+    <title>{{ SITE_NAME }} | {{ SITE_DESCRIPTION }}</title>
+    <meta name="description" content="{{ SITE_SEO_DESCRIPTION }}"/>
+    <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:title" content="{{ SITE_NAME }}"/>
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}"/>
+    <meta property="og:url" content="{{ SITE_BASE_URL }}"/>
+    <meta property="og:site_name" content="{{ SITE_NAME }}"/>
+{% endblock %}
+{% block content %}
+<section class="blog_area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget search_widget">
+                        <div id="content" role="main">
+                            {% if query %}
+                                <header class="archive-header">
+                                    {% if suggestion %}
+                                        <h2 class="archive-title">
+                                            displayed<span style="color: red"> “{{ suggestion }}” </span>search results.&nbsp;&nbsp;
+                                            still search：<a style="text-transform: none;" href="/search/?q={{ query }}&is_suggest=no">{{ query }}</a> <br>
+                                        </h2>
+                                    {% else %}
+                                        <h2 class="nav-search search-switch">
+                                            search：<span style="color: red">{{ query }} </span> &nbsp;&nbsp;
+                                        </h2>
+                                    {% endif %}
+                                </header><!-- .archive-header -->
+                            {% endif %}
+                            {% if query and page.object_list %}
+                                {% for article in page.object_list %}
+                                    {% load_article_detail article.object True user %}
+                                {% endfor %}
+                                {% if page.has_previous or page.has_next %}
+                                    <nav id="nav-below" class="navigation" role="navigation">
+                                        <h3 class="assistive-text">article navigation</h3>
+                                        {% if page.has_previous %}
+                                            <div class="nav-previous"><a
+                                                    href="?q={{ query }}&amp;page={{ page.previous_page_number }}"><span
+                                                    class="meta-nav">&larr;</span> early articles</a></div>
+                                        {% endif %}
+                                        {% if page.has_next %}
+                                            <div class="nav-next"><a href="?q={{ query }}&amp;page={{ page.next_page_number }}">newer article
+                                                <span
+                                                        class="meta-nav">→</span></a>
+                                            </div>
+                                        {% endif %}
+                                    </nav><!-- .navigation -->
+                
+                                {% endif %}
+                            {% else %}
+                                <header class="archive-header">
+                
+                                    <h1 class="archive-title">Oops, keyword：<span>{{ query }}</span>No results found, why don't you try another word?</h1>
+                                </header><!-- .archive-header -->
+                            {% endif %}
+                            
+                                                {% block sidebar %}
+                                                {% load_sidebar request.user 'i' %}
+                                            {% endblock %}
+                                           
+                           
+                
+                        </div><!-- #content -->
+                    </aside>
+                </div>
+            </div>        
+        </div>
+    </div>
+</section>
+    <!-- <div id="primary" class="site-content">
+        
+    </div> -->
+    <!-- #primary -->
+{% endblock %}
+
+
+
+
+

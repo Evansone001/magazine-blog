@@ -1,0 +1,7 @@
+[2023-04-03 19:01:47,548] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-03 19:03:18,666] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:index_1
+[2023-04-03 19:03:18,891] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-03 19:03:19,657] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-03 19:03:19,657] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-03 19:03:23,816] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-03 19:03:24,317] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari

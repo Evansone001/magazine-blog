@@ -1,0 +1,151 @@
+{% load static %}
+{% load blog_tags %}
+{% load cache %}
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<article id="post-{{ article.pk }} "
+         class="blog_area single-post-area section-padding">
+        
+    <header >
+        <!-- <div class="container">
+       <div class="row">
+        <div class="header-area">
+            <h2 class="entry-title">
+                {% if  isindex %}
+                    {% if article.article_order > 0 %}
+                        <a href="{{ article.get_absolute_url }}"
+                           rel="bookmark">【top】{{ article.title }}</a>
+                    {% else %}
+                        <a href="{{ article.get_absolute_url }}"
+                           rel="bookmark">{{ article.title }}</a>
+                    {% endif %}
+    
+                {% else %}
+                    {{ article.title }}
+                {% endif %}
+            </h2> -->
+            <!-- .comments-link -->
+           <!-- <br>
+    
+            {% if article.type == 'a' %}
+                {% if not isindex %}
+                    {% cache 36000 breadcrumb article.pk %}
+                        {% load_breadcrumb article %}
+                    {% endcache %}
+                {% endif %}
+            {% endif %}
+        </div>
+       </div>
+</div>   -->
+    </header><!-- .entry-header -->
+
+
+    <!--================Blog Area =================-->
+
+   <section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div class="blog_left_sidebar">
+                    <article class="blog_item">
+                        <div class="blog_details">
+                            <a  href="{{ a.get_absolute_url }}">
+                                <h2 class="d-inline-block">{{ article.title }}</h2>
+                            </a>
+                            <ul class="blog-info-link mt-3 mb-4">
+                                <li><a href="#"><i class="fa fa-user"></i> Khat Community</a></li>
+                                <li><div class="fa fa-comment">
+                                    {% if article.comment_status == "o" and open_site_comment %}
+                                        <a href="{{ article.get_absolute_url }}#comments" class="ds-thread-count" data-thread-key="3815"
+                                           rel="nofollow">
+                                            <span class="leave-reply">
+                                            {% if article.comment_set and article.comment_set.count %}
+                                                {{ article.comment_set.count }}个Comment
+                                            {% else %}
+                                                publish Comment
+                                            {% endif %}
+                                            </span>
+                                        </a>
+                                    {% endif %}
+                                    
+                                </div</li>
+                                <div style="float:right">
+                                    {{ article.views }} views
+                                </div>
+                             </ul>
+                             <p class="excert">
+                                {% if  isindex %}
+                        {{ article.body|custom_markdown|escape|truncatechars_content }}
+                        <p class='read-more'><a
+                                href=' {{ article.get_absolute_url }}'>Read more</a></p>
+                    {% else %}
+            
+                        {% if article.show_toc %}
+                            {% get_markdown_toc article.body as toc %}
+                            <b>Table of contents:</b>
+                            {{ toc|safe }}
+            
+                            <hr class="break_line"/>
+                        {% endif %}
+                        <div class="article">
+            
+                                {{ article.body|custom_markdown|escape }}
+            
+                        </div>
+                        <!-- <div class="quote-wrapper">
+                            <div class="quotes"> -->
+                              <!-- {{ article.body }} -->
+                            <!-- </div>
+                         </div> -->
+                           
+                {% endif %}
+                           </p>
+                               
+                        </div>
+                    </article>
+                    {% load_article_metas article user %}
+                </div>
+                
+            </div>    
+
+             <!-- <div class="single-post">
+               <div class="feature-img">
+                <img class="img-fluid" src="{% static 'assets/img/blog/logo.png'%}" alt="">
+               </div> -->
+
+               
+    
+                
+                   
+        </div>
+
+
+
+            
+          
+       
+       
+     
+    </div>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="navigation-top">
+                <div class="d-sm-flex justify-content-between text-center">
+                    <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Joseph and 4
+                       people like this</p>
+                    <div class="col-sm-4 text-center my-2 my-sm-0">
+                       <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
+                    <!-- </div>
+                    <ul class="social-icons">
+                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                       <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                 </div>
+               </div> -->
+        <!-- </div> -->
+
+    <!-- </div> -->
+ </section>
+</article><!-- #post -->

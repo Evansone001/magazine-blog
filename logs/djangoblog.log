@@ -1,0 +1,7 @@
+[2023-04-20 18:51:06,030] INFO [blog.models.comment_list:153 models] set article comments:4
+[2023-04-20 18:51:07,551] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-20 18:51:07,551] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-20 18:51:07,789] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-20 18:51:28,041] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-20 18:51:28,528] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-20 18:51:29,369] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebarp

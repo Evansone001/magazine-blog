@@ -1,0 +1,122 @@
+{% load static%}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <footer id="colophon" role="contentinfo">
+    <div class="footer-main footer-bg"> -->
+        
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-8">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="{% static 'assets/img/logo/logo2_footer.png'  %}" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">Miraa Magazine , the ultimate miraa news hub.</p>
+                                        <p class="info2">Po box 16-60601, Laare</p>
+                                        <p class="info2">Phone: +254724559878Cell: +254724559878</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Popular post</h4>
+                            </div>
+                            <!-- Popular post -->
+                            {% if most_read_articles %}
+                            <div class="whats-right-single mb-20">
+                                <div class="whats-right-img">
+                                    <img src="{% static 'assets/img/gallery/logo1.png'%}" alt="">
+                                </div>
+                                {% for a in most_read_articles %}
+                                <div class="whats-right-cap">
+                                    <li>                                   <a href="{{ a.get_absolute_url }}" title="{{ a.title }}">
+                                        {{ a.title }}
+                                    </a> - ({{ a.views }}) views</li>
+                                    <p>Jhon  |  2 hours ago</p> 
+                                </div>
+                               {% endfor %}
+                            </div>
+                            {% endif %}
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="banner">
+                                <img src="{ % static 'assets/img/gallery/logo1.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area footer-bg">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right text-center">
+    <p class="site-info" style="text-align: center">
+        Copyright&copy;&nbsp;{{ CURRENT_YEAR }}&nbsp;
+            <a href="/" target="blank">{{ SITE_NAME }}</a>
+            &nbsp;|&nbsp;
+
+        <a href="/sitemap.xml" title="SiteMap" target="_blank">
+            SiteMap
+        </a>
+        &nbsp;|&nbsp;
+        <a href="/feed" title="RSS Feed" target="_blank">
+            RSS Feed
+        </a>
+        &nbsp;|&nbsp;
+        <a href="/links.html" title="Links" rel="nofollow" target="_blank">
+            Links
+        </a>
+        |&nbsp;
+        <a href="https://khatcommunity.com" target="_blank"
+           rel="nofollow">khat</a>
+        </p>
+        {% comment %}{% include 'share_layout/analyticscode.html' %}{% endcomment %}
+
+    </p>
+    <p class="site-info" style="text-align: center">
+        Powered by
+        <a href="https://khatcommunity.com/" rel="nofollow" target="blank">Elite Khat Community Sacco</a>
+        &nbsp;|&nbsp;
+        Designed by <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://bayconcepts.co.ke" target="_blank">Bay Concept Ltd</a>
+        
+        |
+        page loaded in :<!!LOAD_TIMES!!>s
+    </p>
+    {% if BEIAN_CODE %}
+        <div class="site-info" style="text-align: center">
+            <a href="" rel="nofollow" target="_blank">
+                <p style=" height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+                    {{ BEIAN_CODE }}
+                </p>
+            </a>
+            {% if BEIAN_CODE_GONGAN and SHOW_GONGAN_CODE %}
+                {{ BEIAN_CODE_GONGAN |safe }}
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if ANALYTICS_CODE %}
+        {{ ANALYTICS_CODE| safe }}
+    {% endif %}
+    </div>
+                        </div>
+    </div>
+            </div>
+    </div>
+  </div>
+ </div>
+</footer><!-- #colophon -->
+
+

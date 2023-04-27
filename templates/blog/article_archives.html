@@ -1,0 +1,69 @@
+{% extends 'share_layout/base.html' %}
+{% load blog_tags %}
+{% load cache %}
+{% block header %}
+
+    <title>Article Archive | {{ SITE_DESCRIPTION }}</title>
+
+    <meta name="description" content="{{ SITE_SEO_DESCRIPTION }}"/>
+    <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:title" content="{{ SITE_NAME }}"/>
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}"/>
+    <meta property="og:url" content="{{ SITE_BASE_URL }}"/>
+    <meta property="og:site_name" content="{{ SITE_NAME }}"/>
+
+{% endblock %}
+{% block content %}
+    <div id="primary" class="site-content">
+        <div id="content" role="main">
+
+            <header class="archive-header">
+
+                <p class="archive-title">Article Archive</p>
+            </header><!-- .archive-header -->
+
+            <div class="blog_area section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mb-5 mb-lg-0">
+                            <div class="blog_left_sidebar">
+                            {% regroup article_list by pub_time.year as year_post_group %}
+                <ul class="list cat-list">
+                    {% for year in year_post_group %}
+                        <li>{{ year.grouper }} year
+                            {% regroup year.list by pub_time.month as month_post_group %}
+                            <ul class="list cat-list">
+                                {% for month in month_post_group %}
+                                    <li>{{ month.grouper }} moon
+                                        <ul>
+                                            {% for article in month.list %}
+                                                <li><a href="{{ article.get_absolute_url }}">{{ article.title }}</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                
+                
+            </div>
+        </div><!-- #content -->
+    </div><!-- #primary -->
+
+{% endblock %}
+
+
+{% block sidebar %}
+    {% load_sidebar user 'i' %}
+{% endblock %}
+
+

@@ -1,0 +1,292 @@
+[2023-04-05 15:47:30,039] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 15:48:29,447] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:index_1
+[2023-04-05 15:48:29,530] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 15:48:30,087] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 15:48:30,087] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 15:48:35,111] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-05 15:48:35,695] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-05 15:55:25,411] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 15:56:20,171] INFO [blog.models.comment_list:152 models] set article comments:2
+[2023-04-05 15:56:21,279] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-05 16:14:35,362] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 16:16:50,957] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 16:16:51,874] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 16:16:51,874] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 16:25:46,512] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:index_1
+[2023-04-05 16:26:13,486] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:26:16,269] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-05 16:26:16,272] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-05 16:26:17,648] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-05 16:26:17,649] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-05 16:28:20,311] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:28:36,340] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:29:13,350] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:29:24,085] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:33:16,735] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:35:41,901] INFO [blog.models.comment_list:152 models] set article comments:2
+[2023-04-05 16:35:42,324] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-05 16:39:06,139] INFO [blog.models.comment_list:147 models] get article comments:2
+[2023-04-05 16:39:21,609] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:39:48,097] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:39:53,051] INFO [blog.models.comment_list:152 models] set article comments:1
+[2023-04-05 16:39:58,855] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 16:40:11,273] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 16:43:16,988] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 16:45:17,209] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:10:30,655] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:14:13,885] INFO [blog.models.comment_list:147 models] get article comments:2
+[2023-04-05 18:15:35,523] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:archives
+[2023-04-05 18:26:48,355] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:40:08,525] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:41:25,719] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:41:37,403] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:42:06,422] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:43:57,392] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:44:09,264] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:45:05,366] INFO [blog.models.comment_list:152 models] set article comments:4
+[2023-04-05 18:46:39,885] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:39,885] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:39,887] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:39,887] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:39,887] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:39,887] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:39,888] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:39,888] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:39,908] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:39,908] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:39,909] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:39,909] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:40,604] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:40,604] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:40,615] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:40,615] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:40,623] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:40,623] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:40,627] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:40,627] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:40,632] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:40,632] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:54,166] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:54,166] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:54,183] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:54,183] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:54,184] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:54,184] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:54,184] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:54,184] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:54,185] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:54,185] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:54,185] INFO [accounts.views.form_valid:123 views] next
+[2023-04-05 18:46:55,563] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b6f1be2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:46:55,563] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b6f1be2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:46:55,565] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:55,565] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:55,566] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:55,566] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:55,566] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:55,566] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:55,567] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:55,567] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:55,569] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:55,569] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:55,575] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:55,575] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:58,217] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:58,217] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:58,224] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:58,224] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:58,231] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:58,231] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:58,233] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:58,233] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:58,240] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:58,240] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:58,243] INFO [accounts.views.form_valid:123 views] next
+[2023-04-05 18:46:58,544] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b70da9dc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:46:58,544] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b70da9dc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:46:58,561] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:58,561] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:46:58,567] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:58,567] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:46:58,579] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:58,579] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:46:58,585] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:58,585] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:46:58,596] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:58,596] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:46:58,602] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:58,602] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:46:58,925] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:index_1
+[2023-04-05 18:46:58,927] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 18:46:58,991] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 18:46:58,991] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 18:46:59,289] WARNING [django.security.csrf.log_response:241 log] Forbidden (CSRF token from POST incorrect.): /login/
+[2023-04-05 18:47:00,192] WARNING [django.security.csrf.log_response:241 log] Forbidden (CSRF token from POST incorrect.): /login/
+[2023-04-05 18:47:00,462] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-05 18:47:00,650] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-05 18:47:14,173] WARNING [django.security.csrf.log_response:241 log] Forbidden (CSRF token from POST incorrect.): /login/
+[2023-04-05 18:47:26,820] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:47:26,820] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:47:26,821] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:47:26,821] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:47:26,822] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:47:26,822] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:47:26,823] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:47:26,823] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:47:26,824] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:47:26,824] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:47:26,829] INFO [accounts.views.form_valid:123 views] next
+[2023-04-05 18:47:27,072] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b6f15c700>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:47:27,072] ERROR [djangoblog.spider_notify.baidu_notify:18 spider_notify] HTTPConnectionPool(host='data.zz.baidu.com', port=80): Max retries exceeded with url: /urls?site=https://www.lylinux.net&token=1uAOGrMsUm5syDGn (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4b6f15c700>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-05 18:47:27,092] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:47:27,092] INFO [djangoblog.blog_signals.user_auth_callback:120 blog_signals] mwendaevansone@gmail.com
+[2023-04-05 18:47:27,095] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:47:27,095] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 18:47:27,099] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:47:27,099] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 18:47:27,116] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:47:27,116] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 18:47:27,140] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:47:27,140] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 18:47:27,143] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:47:27,143] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 18:47:27,575] INFO [blog.views.get_queryset_from_cache:71 views] set view cache.key:index_1
+[2023-04-05 18:47:27,577] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 18:47:27,629] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 18:47:27,629] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 18:47:27,909] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-05 18:47:27,978] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-05 18:48:52,080] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:49:00,847] INFO [blog.models.comment_list:152 models] set article comments:2
+[2023-04-05 18:49:01,193] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-05 18:50:08,491] INFO [blog.views.get_queryset_from_cache:66 views] get view cache.key:index_1
+[2023-04-05 18:50:28,544] INFO [blog.models.comment_list:152 models] set article comments:1
+[2023-04-05 18:51:01,803] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:51:13,370] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:51:48,826] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:52:02,348] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:52:50,275] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:53:21,973] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:53:49,841] INFO [blog.models.comment_list:147 models] get article comments:1
+[2023-04-05 18:54:13,529] INFO [blog.models.comment_list:152 models] set article comments:4
+[2023-04-05 19:01:28,638] INFO [blog.models.comment_list:152 models] set article comments:4
+[2023-04-05 19:02:23,598] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 19:02:23,598] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebari
+[2023-04-05 19:02:23,605] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 19:02:23,605] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarl
+[2023-04-05 19:02:23,623] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 19:02:23,623] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebarp
+[2023-04-05 19:02:23,630] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 19:02:23,630] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebara
+[2023-04-05 19:02:23,637] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 19:02:23,637] INFO [djangoblog.utils.delete_sidebar_cache:212 utils] delete sidebar key:sidebars
+[2023-04-05 19:02:24,603] INFO [blog.models.comment_list:152 models] set article comments:4
+[2023-04-05 19:02:24,663] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 19:02:32,430] ERROR [djangoblog.blog_signals.send_email_signal_handler:49 blog_signals] failure mailbox number: ['mwendaevansone@gmail.com'], (500, b'Error: bad syntax', 'None')
+[2023-04-05 19:02:32,430] ERROR [djangoblog.blog_signals.send_email_signal_handler:49 blog_signals] failure mailbox number: ['mwendaevansone@gmail.com'], (500, b'Error: bad syntax', 'None')
+[2023-04-05 19:08:43,350] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:10:05,932] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:30:52,211] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:31:08,266] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:32:04,218] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:32:16,360] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:33:51,021] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:34:03,476] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:34:23,302] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:34:37,276] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:36:44,205] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:37:01,562] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:38:22,653] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:38:37,897] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:43:14,828] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:43:36,531] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:51:47,513] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:52:06,696] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:52:43,891] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:52:55,784] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 19:53:39,329] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 19:53:54,766] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 21:01:52,779] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 21:02:16,771] INFO [blog.models.comment_list:160 models] set article comments:4
+[2023-04-05 21:02:16,939] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 21:02:16,939] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-05 21:02:17,150] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-05 21:02:20,066] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-05 21:24:51,295] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 23:02:37,021] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-05 23:20:24,208] INFO [django.utils.autoreload.trigger_reload:266 autoreload] /home/legend/Desktop/magazine/magazine1/magazine/magazine/DjangoBlog/blog/models.py changed, reloading.
+[2023-04-05 23:20:45,297] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-06 08:22:22,448] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-06 08:23:41,143] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-06 08:24:19,713] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:index_1
+[2023-04-06 08:24:19,936] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-06 08:24:20,178] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-06 08:24:20,178] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-06 08:24:38,521] INFO [blog.models.comment_list:153 models] set article comments:2
+[2023-04-06 08:24:39,224] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-06 08:25:15,171] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:category_list_Culture_1
+[2023-04-06 08:50:12,116] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 08:50:13,152] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-06 08:50:14,925] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-06 08:54:56,661] INFO [blog.models.comment_list:153 models] set article comments:1
+[2023-04-06 08:54:57,284] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-06 08:54:57,424] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebarp
+[2023-04-06 09:03:58,424] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 09:10:26,160] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 09:10:56,852] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 09:35:21,598] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 09:35:34,200] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 09:36:30,748] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:41:14,976] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:43:39,601] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:46:31,267] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:48:17,597] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:48:56,644] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:49:03,179] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:49:18,262] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:49:35,578] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:49:50,926] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:50:03,970] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:50:11,630] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:51:03,116] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:51:10,827] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:52:21,955] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:53:17,357] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:53:25,869] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:53:41,317] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 09:58:03,398] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 10:05:49,109] INFO [blog.models.comment_list:153 models] set article comments:2
+[2023-04-06 10:07:47,645] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 10:12:21,077] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 10:15:36,584] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 10:30:38,399] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 10:31:01,228] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:18:55,057] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader
+[2023-04-06 11:20:24,599] INFO [blog.models.comment_list:153 models] set article comments:2
+[2023-04-06 11:20:25,816] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-06 11:20:25,816] INFO [djangoblog.utils.get_blog_setting:167 utils] set cache get_blog_setting
+[2023-04-06 11:20:26,407] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-04-06 11:20:36,250] INFO [blog.templatetags.blog_tags.gravatar_url:307 blog_tags] set gravatar cache.key:gravatat/mwendaevansone@gmail.com
+[2023-04-06 11:20:36,902] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-06 11:20:38,340] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebarp
+[2023-04-06 11:23:20,796] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:23:53,320] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:26:01,501] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:26:28,809] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:26:59,986] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:31:05,306] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:33:07,298] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:34:01,810] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:35:28,886] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:36:27,029] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:36:37,579] INFO [blog.models.comment_list:148 models] get article comments:2
+[2023-04-06 11:37:32,535] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:index_1
+[2023-04-06 11:37:33,686] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-04-06 11:37:33,960] INFO [blog.templatetags.blog_tags.load_sidebar:177 blog_tags] set sidebar cache.key:sidebari
+[2023-04-06 11:38:12,330] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 11:38:33,072] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 11:39:17,861] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 11:39:37,173] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 11:39:52,766] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 11:42:22,948] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-04-06 12:02:21,866] INFO [django.utils.autoreload.run_with_reloader:677 autoreload] Watching for file changes with StatReloader

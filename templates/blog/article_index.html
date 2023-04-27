@@ -1,0 +1,107 @@
+{% extends 'share_layout/base.html' %}
+{% load blog_tags %}
+{% load cache %}
+
+{% block header %}
+    {% if tag_name %}
+        <title>{{ page_type }}:{{ tag_name }} | {{ SITE_DESCRIPTION }}</title>
+        {% comment %}<meta name="description" content="{{ page_type }}:{{ tag_name }}"/>{% endcomment %}
+    {% else %}
+        <title>{{ SITE_NAME }} | {{ SITE_DESCRIPTION }}</title>
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="{{ SITE_SEO_DESCRIPTION }}"/>
+    <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:title" content="{{ SITE_NAME }}"/>
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}"/>
+    <meta property="og:url" content="{{ SITE_BASE_URL }}"/>
+    <meta property="og:site_name" content="{{ SITE_NAME }}"/>
+{% endblock %}
+{% block content %}
+    <section id="primary" class="blog_area  section-padding">
+        <div id="content" role="main" >
+                <!-- <header class="archive-header">
+
+                    
+                </header>.archive-header -->
+            
+
+            <div class="about-area2 gray-bg pt-60 pb-60">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mb-5 mb-lg-0">
+                                <div class="blog_left_sidebar">
+                                    <div class="col-lg-8">
+                                        <!-- <div class="whats-news-wrapper"> -->
+                                            {% if page_type and tag_name %}
+                                            <div class="row justify-content-between align-items-center mb-15">
+                                                
+                                                <div class="col-xl-4">
+                                                    <div class="section-tittle mb-30">
+                                                        <div class="archive-title"><h4 style="font-weight:300;font-family: 'Times New Roman', Times, serif;">{{ tag_name }}</h4></div>
+                                                    </div>
+                                                </div>
+            
+                                            </div>
+                                            {% endif%}
+                                            <!-- Tab content -->
+                                            
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!-- Nav Card -->
+                                                
+                                                <div class="tab-content" id="nav-tabContent">
+                                                    <!-- card one -->
+                                                    
+                                                    
+                                                    <!-- <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">        -->
+                                                        <div class="row">
+            
+                                                           
+                                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                                
+                                                                <div class="whats-news-single mb-40 mb-40">
+                                                                    {% for article in article_list %}
+                                                                    {% load_article_detail article True user %}
+                                                      
+                                                                    {% endfor %}
+                                                                    {% if is_paginated %}
+                                                                    {% load_pagination_info page_obj page_type tag_name %}
+                                                    
+                                                                {% endif %}
+                                                                </div>
+                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                           
+                                           
+                                        </div>
+                                        </div>
+                                        
+                                       
+                                        </div>
+                                </div>
+                            </div>    
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+           
+              
+           
+                
+                {% endblock %}
+                
+                
+            
+        </div><!-- #content -->
+    </section><!-- #primary -->
+
