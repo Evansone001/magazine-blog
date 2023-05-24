@@ -49,7 +49,7 @@ Files in `test` directory are for `travis` with automatic testing. You do not ne
 
 In `bin` directory, we have scripts to deploy with `Nginx`+`Gunicorn`+`virtualenv`+`supervisor` on `linux` and `Nginx` configuration file. You can reference with my article
 
->[DjangoBlog部署教程](https://www.lylinux.net/article/2019/8/5/58.html)
+>[DjangoBlog(https://www.lylinux.net/article/2019/8/5/58.html)
 
 More deploy detail in this article.
 
